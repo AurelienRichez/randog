@@ -7,7 +7,7 @@ class Randog extends HTMLElement {
     const shadow = this.attachShadow({mode: 'closed'})
 
     const style = document.createElement('style');
-    style.innerText = `
+    style.textContent = `
     :host {
       display:inline-block;
     }
